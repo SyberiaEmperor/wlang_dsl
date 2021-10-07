@@ -1,0 +1,5 @@
+|print("Hello")|
+|address = "http://google.com"; params = {}|
+GET address params => get_res
+|print(get_res.json()['body'])|
+|assert get_res.status_code == 300|
